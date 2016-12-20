@@ -31,7 +31,7 @@ var gaugeSix = {
 
 
 //change these sometimes when needed
-//Units of the graph to be displayed - %, CM, M, or # 
+//Units of the graph to be displayed - %, CM, M, or #
 //this is text
 gaugeOne.units = '%';
 gaugeTwo.units = '%';
@@ -72,8 +72,8 @@ gaugeSix.greenZone = 80;
 
 /*
 Placement of the red and yellow zones is set by setting the red zone.  This value is also a percentage value.
-The value here is the higest value for the redZone (the lowest point in the red zone is set to zero).  So setting this to 50 
-means the red zone goes from 0 to 50% of the max value and the yellow zone goes from 50% of the max value to the bottom of the green zone.  
+The value here is the higest value for the redZone (the lowest point in the red zone is set to zero).  So setting this to 50
+means the red zone goes from 0 to 50% of the max value and the yellow zone goes from 50% of the max value to the bottom of the green zone.
 If you don't want to show the red / yellow zone set this value to null.
 This should be set to null if the green zone is null (ok this is a bug).
 */
@@ -84,14 +84,27 @@ gaugeFour.redZone = 50;
 gaugeFive.redZone = null;
 gaugeSix.redZone = 60;
 
-//Leave this stuff below here 
+//Leave this stuff below here
 //Graphsize - leave
-//if you change these you may need to update the HTML or 
+//if you change these you may need to update the HTML or
 //the stylesheet to make sure everything fits
-var width = 600;
-var height = 250;
+var widthOfGauge = 600;
+var heightOfGauge = 250;
+gaugeOne.width = widthOfGauge;
+gaugeTwo.width = widthOfGauge;
+gaugeThree.width = widthOfGauge;
+gaugeFour.width = widthOfGauge;
+gaugeFive.width = widthOfGauge;
+gaugeSix.width = widthOfGauge
 
-//div ids please leave - 
+gaugeOne.height = heightOfGauge;
+gaugeTwo.height = heightOfGauge;
+gaugeThree.height = heightOfGauge;
+gaugeFour.height = heightOfGauge;
+gaugeFive.height = heightOfGauge;
+gaugeSix.height = heightOfGauge;
+
+//div ids please leave -
 //these are used to place the graph on the page
 gaugeOne.id = 'gauge1';
 gaugeTwo.id = 'gauge2';
@@ -99,4 +112,3 @@ gaugeThree.id = 'gauge3';
 gaugeFour.id = 'gauge4';
 gaugeFive.id = 'gauge5';
 gaugeSix.id = 'gauge6';
-
