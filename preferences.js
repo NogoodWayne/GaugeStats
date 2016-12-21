@@ -5,12 +5,12 @@ var title = 'TrainHoppers - PI2 S1 Progress'
 //Gauges: Set name of graph and the value to be displayed
 //note these do not have to be the same as the default values
 var gaugeOne = {
-	name: 'Points accepted (17/33)',
-	value: 52
+	name: 'Points accepted (8/21)',
+	value: 38
 };
 var gaugeTwo = {
-	name: 'Stories accepted (5/12)',
-	value:42
+	name: 'Stories accepted (4/5)',
+	value: 80
 };
 var gaugeThree = {
 	name: 'Enablers accepted (0/0)',
@@ -18,15 +18,15 @@ var gaugeThree = {
 };
 var gaugeFour = {
 	name: 'Automated test coverage',
-	value: 10
+	value: 0
 };
 var gaugeFive = {
-	name: 'Production support',
-	value: 55
+	name: 'BAU',
+	value: 38
 };
 var gaugeSix = {
-	name: 'Team Health',
-	value: 75
+	name: '',
+	value: null
 };
 
 
